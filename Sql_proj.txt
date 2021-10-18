@@ -1,0 +1,13 @@
+SQL CODE
+
+create database vote;
+use databse vote;
+create table student(first char(20),last char(20),course char(20),id int,dob int);
+create table registr(name char(20),student_id char(20),gender char(20),coruse char(20), post char(20));
+create table votes(president char(20),vice_president char(20),speaker char(20),treasurer char(20),cultural_sec char(20),sports_sec char(20));
+create table pres(name char(20),count int);
+create table vice( name char(20), count int);
+create table spea(name char(20), count int);
+create table trea(name char(20),count int);
+create table cult(name char(20),count int);
+create table sport(name char(20),count int);
